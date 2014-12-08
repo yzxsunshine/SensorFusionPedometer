@@ -23,11 +23,6 @@ import android.view.Menu;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-
-/**
- * @author yzx
- *
- */
 public class SensorFusionMain extends Activity 
 implements SensorEventListener, RadioGroup.OnCheckedChangeListener {
 	private SensorManager mSensorManager = null;
